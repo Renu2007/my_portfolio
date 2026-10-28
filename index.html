@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Renuka M., a B.Tech Computer Science and Engineering (AI & ML) student at REVA University and Aspiring AI Engineer.">
+  <meta name="author" content="Renuka M.">
+  <title>Renuka M. | B.Tech CSE (AI & ML) Student Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Shapes -->
+  <div class="bg-shape shape-1" aria-hidden="true"></div>
+  <div class="bg-shape shape-2" aria-hidden="true"></div>
+  <div class="bg-shape shape-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="brand-logo">
+        <span class="logo-badge">&lt;AI&gt;</span>
+        <span class="logo-text">Renuka<span class="purple-highlight">.M</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" id="nav-about">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link" id="nav-skills">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link" id="nav-education">Education</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link" id="nav-certifications">Certifications</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link" id="nav-projects">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+        <div class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+        </div>
+      </nav>
+
+      <!-- Right Nav Actions -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm desktop-only-btn" id="nav-cta-btn">Connect With Me</a>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- SECTION 1: HOME / HERO -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="pulse-dot"></span>
+            <span>Aspiring AI Engineer</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text" id="student-name">Renuka M.</span>
+          </h1>
+          
+          <h2 class="hero-subtitle">
+            <span class="typing-prefix">Focusing on </span>
+            <span class="typing-text" id="typing-text">AI & Machine Learning</span>
+          </h2>
+
+          <p class="hero-description">
+            Welcome to my portfolio! I am a <strong>B.Tech Computer Science and Engineering</strong> student 
+            specializing in <strong>Artificial Intelligence and Machine Learning</strong> at <strong>REVA University</strong>. 
+            As an aspiring AI Engineer, I am committed to building strong foundations in programming, algorithmic logic, 
+            and modern web development.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+              <span>View Sample Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">Contact Me</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">B.Tech</span>
+              <span class="stat-label">CSE (AI & ML)</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">REVA</span>
+              <span class="stat-label">University</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">AI Eng</span>
+              <span class="stat-label">Career Goal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="card-glow"></div>
+            <div class="code-window">
+              <div class="code-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="file-title">renuka_profile.py</span>
+              </div>
+              <pre class="code-body"><code><span class="kw">class</span> <span class="class-name">AIStudent</span>:
+    <span class="kw">def</span> <span class="func">__init__</span>(self):
+        self.name = <span class="str">"Renuka M."</span>
+        self.education = <span class="str">"B.Tech CSE (AIML), REVA University"</span>
+        self.career_goal = <span class="str">"Aspiring AI Engineer"</span>
+        self.skills = [<span class="str">"C"</span>, <span class="str">"Python"</span>, <span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JS"</span>, <span class="str">"GitHub"</span>]
+        self.certification = <span class="str">"IBM Python Course Certificate"</span>
+
+    <span class="kw">def</span> <span class="func">get_status</span>(self):
+        <span class="kw">return</span> <span class="str">"Building solid foundations in AI and Code! 🚀"</span>
+
+renuka = AIStudent()
+<span class="builtin">print</span>(renuka.get_status())</code></pre>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-1">
+              <div class="badge-icon">🎓</div>
+              <div class="badge-info">
+                <strong>REVA University</strong>
+                <span>B.Tech CSE (AI & ML)</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-2">
+              <div class="badge-icon">📜</div>
+              <div class="badge-info">
+                <strong>IBM Certified</strong>
+                <span>Python Course</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">My Journey & <span class="purple-highlight">Interests</span></h2>
+          <p class="section-subtitle">A simple and professional overview of my background and learning journey</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio-card">
+            <div class="bio-icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3>Undergraduate Student at REVA University</h3>
+            <p>
+              Hello! I am <strong>Renuka M.</strong>, currently pursuing my <strong>Bachelor of Technology in Computer Science and Engineering</strong> 
+              with a specialization in <strong>Artificial Intelligence and Machine Learning</strong> at <strong>REVA University</strong>.
+            </p>
+            <p>
+              I am passionate about technology and computing. As an <strong>Aspiring AI Engineer</strong>, I am actively building my foundation 
+              by learning structured programming in <strong>C and Python</strong>, crafting clean user interfaces with <strong>HTML, CSS, and JavaScript</strong>, 
+              and organizing my practice code with <strong>GitHub</strong>.
+            </p>
+            <p>
+              I recently completed the <strong>IBM Python Course</strong> to strengthen my programming syntax and basics. I believe in consistent learning, 
+              strengthening beginner-level problem solving, and gradually developing the skills required to design intelligent, real-world solutions.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-chip">🎓 REVA University</div>
+              <div class="highlight-chip">🤖 Aspiring AI Engineer</div>
+              <div class="highlight-chip">🐍 Python & C Foundations</div>
+              <div class="highlight-chip">🧩 Problem Solving Learner</div>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card">
+              <div class="pillar-icon">🤖</div>
+              <h4>Artificial Intelligence</h4>
+              <p>Exploring introductory concepts of artificial intelligence, machine learning principles, and how algorithms analyze data.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">💻</div>
+              <h4>Programming Foundations</h4>
+              <p>Writing clean, structured code in C and Python to understand programming syntax, functions, and core logic.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">🌐</div>
+              <h4>Web Development</h4>
+              <p>Learning how to structure and style interactive web pages using HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">My Current <span class="purple-highlight">Skills</span></h2>
+          <p class="section-subtitle">Foundational skills I am actively learning and practicing (Beginner Level)</p>
+        </div>
+
+        <div class="skills-info-banner">
+          <span class="info-icon">ℹ️</span>
+          <span><strong>Note:</strong> All skills below are actively developed at <strong>Beginner Level</strong> through university coursework, self-learning, and practice.</span>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: C Programming -->
+          <div class="skill-card" data-skill="c">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper c-bg">
+                <span class="tech-symbol">C</span>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">C Programming</h3>
+            <p class="skill-desc">Basic programming concepts, variables, control flow, loops, functions, and fundamental logic building.</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Foundation)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 45%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 2: Python -->
+          <div class="skill-card" data-skill="python">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper python-bg">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M11.91 2c-3.1 0-5.02.4-5.02 2.38v1.75h5.13v.59H4.89C2.9 6.72 2 8.42 2 11.23c0 2.8 1.15 4.34 3.03 4.34h1.74v-2.45c0-1.8 1.57-3.32 3.37-3.32h5.18c1.47 0 2.66-1.22 2.66-2.72V4.38C18 2.4 16.08 2 11.91 2zm-2.07 1.54a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6zm7.25 5.61v2.45c0 1.8-1.57 3.32-3.37 3.32H8.54c-1.47 0-2.66 1.22-2.66 2.72v2.7c0 1.98 1.92 2.38 6.09 2.38 3.1 0 5.02-.4 5.02-2.38v-1.75h-5.13v-.59h7.13c1.99 0 2.89-1.7 2.89-4.51 0-2.8-1.15-4.34-3.03-4.34h-1.76zm-3.17 11.71a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z"/>
+                </svg>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-desc">Basic syntax, data types, lists, dictionaries, conditionals, functions, and introductory AI scripting (IBM Certified).</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Foundation)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 50%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 3: HTML -->
+          <div class="skill-card" data-skill="html">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper html-bg">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M4.12 2l1.45 16.32L12 20.12l6.43-1.8L19.88 2H4.12zM12 18.25l-4.75-1.32-.3-3.41h2.12l.16 1.74 2.77.75 2.77-.75.29-3.23H7.31l-.22-2.48h8.86l-.23 2.58H12v-.01zM16.5 6.94H7.5l.22 2.48h8.56l-.22 2.48H12v.01l4.28-.01.44-4.96z"/>
+                </svg>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Structuring web pages with semantic tags, headings, lists, forms, links, and accessible layout elements.</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Foundation)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 55%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 4: CSS -->
+          <div class="skill-card" data-skill="css">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper css-bg">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M4.12 2l1.45 16.32L12 20.12l6.43-1.8L19.88 2H4.12zM12 3.82v2.22h4.52l-.2 2.22H12v2.22h4.12l-.4 4.54-3.72 1.04v2.28l5.88-1.64.76-8.44H12V3.82zM7.34 6.04l.2 2.22H12V6.04H7.34zm.39 4.44l.2 2.22H12v-2.22H7.73z"/>
+                </svg>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Styling pages, colors, fonts, Flexbox alignment, CSS grid basics, and simple responsive media queries.</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Foundation)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 50%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 5: JavaScript -->
+          <div class="skill-card" data-skill="js">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper js-bg">
+                <span class="tech-symbol">JS</span>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">Introductory DOM manipulation, click event listeners, simple functions, and page interactivity.</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Foundation)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 40%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 6: GitHub -->
+          <div class="skill-card" data-skill="github">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper github-bg">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">Git & GitHub</h3>
+            <p class="skill-desc">Basic Git commands (init, add, commit, push), repository management, and code tracking.</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Foundation)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 45%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 7: Problem Solving -->
+          <div class="skill-card" data-skill="problem-solving">
+            <div class="skill-top">
+              <div class="skill-icon-wrapper problem-bg">
+                <span class="tech-symbol">🧩</span>
+              </div>
+              <span class="level-badge">Beginner</span>
+            </div>
+            <h3 class="skill-name">Problem Solving</h3>
+            <p class="skill-desc">Practicing beginner-level programming problems, algorithmic flowcharts, tracing logic, and debugging.</p>
+            <div class="skill-bar-wrapper">
+              <div class="skill-bar-header">
+                <span>Proficiency</span>
+                <span>Beginner (Practicing)</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 45%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: EDUCATION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">My <span class="purple-highlight">Education</span></h2>
+          <p class="section-subtitle">Formal degree program and computer science engineering studies</p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Main B.Tech Degree Item -->
+          <div class="timeline-card active-degree">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="edu-badge degree-type">Undergraduate Degree</span>
+                <span class="edu-duration">Undergraduate &bull; 4-Year B.Tech</span>
+              </div>
+
+              <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+              <h4 class="edu-field">Computer Science and Engineering</h4>
+              <p class="edu-specialization">
+                <span class="specialization-tag">Specialization:</span> 
+                <strong>Artificial Intelligence and Machine Learning (AI & ML)</strong>
+              </p>
+              
+              <div class="edu-institution-info">
+                <div class="info-row">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                  <span><strong>REVA University</strong>, Bengaluru, Karnataka, India</span>
+                </div>
+                <div class="info-row">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Student Status: Currently Pursuing B.Tech CSE (AIML)</span>
+                </div>
+              </div>
+
+              <div class="coursework-box">
+                <h5>Relevant Coursework & Study Areas:</h5>
+                <div class="coursework-tags">
+                  <span class="c-tag">Artificial Intelligence Concepts</span>
+                  <span class="c-tag">Machine Learning Foundations</span>
+                  <span class="c-tag">C Programming & Problem Solving</span>
+                  <span class="c-tag">Python Programming</span>
+                  <span class="c-tag">Data Structures Basics</span>
+                  <span class="c-tag">Web Technologies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: CERTIFICATIONS -->
+    <section class="section certifications-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Certifications</span>
+          <h2 class="section-title">Courses & <span class="purple-highlight">Certifications</span></h2>
+          <p class="section-subtitle">Verified learning programs and technical skill development courses</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Certification 1: IBM Python Course Certificate -->
+          <div class="cert-card" id="cert-ibm-python">
+            <div class="cert-header">
+              <div class="cert-badge-icon ibm-blue">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M2 5h20v2H2V5zm0 4h20v2H2V9zm0 4h20v2H2v-2zm0 4h20v2H2v-2z"/>
+                </svg>
+              </div>
+              <div class="cert-status-pill">Verified Course Completion</div>
+            </div>
+
+            <div class="cert-body">
+              <span class="cert-issuer">IBM</span>
+              <h3 class="cert-title">IBM Python Course Certificate</h3>
+              <p class="cert-desc">
+                Completed the introductory Python course covering fundamental syntax, data structures (lists, tuples, dictionaries), 
+                loops, functions, and core programming principles used for computing, data analysis, and AI workflows.
+              </p>
+
+              <div class="cert-tags">
+                <span class="c-tag">Python</span>
+                <span class="c-tag">IBM</span>
+                <span class="c-tag">Foundational Programming</span>
+                <span class="c-tag">Data Basics</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <!-- EDIT HERE: You can replace '#' with your certificate verification link or PDF link -->
+              <a href="#" class="btn btn-outline btn-sm cert-link-btn" title="Edit with your credential link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Certificate Info / Verification Link</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Sample Projects</span>
+          <h2 class="section-title">Projects <span class="purple-highlight">Showcase</span></h2>
+          <p class="section-subtitle">Sample project cards prepared for Renuka to replace with her actual coursework and assignments</p>
+        </div>
+
+        <div class="skills-info-banner sample-projects-banner">
+          <span class="info-icon">📌</span>
+          <span><strong>Notice:</strong> The cards below are <strong>sample templates</strong>. You can easily replace the title, description, and GitHub links with your own academic projects as you complete them!</span>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Blog Application -->
+          <article class="project-card" id="project-blog">
+            <div class="project-banner sample-banner">
+              <span class="sample-notice-pill">📌 Sample Project &bull; Replace with your work</span>
+              <div class="project-mockup blog-mockup">
+                <div class="mockup-header">
+                  <div class="mockup-dots"><span></span><span></span><span></span></div>
+                  <div class="mockup-url">sample-blog.local/posts</div>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-line title-line"></div>
+                  <div class="mockup-line text-line"></div>
+                  <div class="mockup-line text-line short"></div>
+                  <div class="mockup-tags-row">
+                    <span class="m-tag">AI</span>
+                    <span class="m-tag">Tech</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Web Development</span>
+                <span class="project-status">Sample Card</span>
+              </div>
+              <h3 class="project-title">Blog Application</h3>
+              <p class="project-desc">
+                A sample responsive blog interface built to practice HTML layout, CSS styling, and basic JavaScript. 
+                Ready to be replaced with your own web project.
+              </p>
+
+              <div class="tech-stack-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <button class="btn btn-outline btn-sm demo-trigger" data-target="blog">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Preview Project
+                </button>
+                <!-- EDIT HERE: Replace with your actual project GitHub repository -->
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  GitHub Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Student Management System -->
+          <article class="project-card" id="project-sms">
+            <div class="project-banner sample-banner">
+              <span class="sample-notice-pill">📌 Sample Project &bull; Replace with your work</span>
+              <div class="project-mockup sms-mockup">
+                <div class="mockup-header">
+                  <div class="mockup-dots"><span></span><span></span><span></span></div>
+                  <div class="mockup-url">sms-portal.local/records</div>
+                </div>
+                <div class="mockup-content">
+                  <div class="mockup-table">
+                    <div class="m-row header"><span class="c1">ID</span><span class="c2">Student</span><span class="c3">Status</span></div>
+                    <div class="m-row"><span class="c1">#101</span><span class="c2">Renuka M.</span><span class="c3 green">Enrolled</span></div>
+                    <div class="m-row"><span class="c1">#102</span><span class="c2">Student 2</span><span class="c3 green">Enrolled</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Software Systems</span>
+                <span class="project-status">Sample Card</span>
+              </div>
+              <h3 class="project-title">Student Management System</h3>
+              <p class="project-desc">
+                A sample project structure representing a student record and course management tool. 
+                Demonstrates core logic and data handling concepts.
+              </p>
+
+              <div class="tech-stack-tags">
+                <span class="tech-tag">Python / C Logic</span>
+                <span class="tech-tag">HTML & CSS</span>
+                <span class="tech-tag">Data Handling</span>
+              </div>
+
+              <div class="project-links">
+                <button class="btn btn-outline btn-sm demo-trigger" data-target="sms">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Preview Project
+                </button>
+                <!-- EDIT HERE: Replace with your actual project GitHub repository -->
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  GitHub Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: AI Project -->
+          <article class="project-card" id="project-ai">
+            <div class="project-banner sample-banner">
+              <span class="sample-notice-pill">📌 Sample Project &bull; Replace with your work</span>
+              <div class="project-mockup ai-mockup">
+                <div class="mockup-header">
+                  <div class="mockup-dots"><span></span><span></span><span></span></div>
+                  <div class="mockup-url">ai-model.local/test</div>
+                </div>
+                <div class="mockup-content ai-graph-view">
+                  <div class="ai-node-circle n1"></div>
+                  <div class="ai-node-circle n2"></div>
+                  <div class="ai-node-circle n3"></div>
+                  <div class="ai-node-connection"></div>
+                  <div class="ai-accuracy-tag">AI Concept Demo</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Artificial Intelligence</span>
+                <span class="project-status">Sample Card</span>
+              </div>
+              <h3 class="project-title">Introductory AI / ML Project</h3>
+              <p class="project-desc">
+                A placeholder card representing an introductory Python Machine Learning experiment, data preprocessing, 
+                or prediction model.
+              </p>
+
+              <div class="tech-stack-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">AI / ML Concepts</span>
+                <span class="tech-tag">Problem Solving</span>
+              </div>
+
+              <div class="project-links">
+                <button class="btn btn-outline btn-sm demo-trigger" data-target="ai">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Preview Project
+                </button>
+                <!-- EDIT HERE: Replace with your actual project GitHub repository -->
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                  GitHub Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's <span class="purple-highlight">Connect</span></h2>
+          <p class="section-subtitle">Reach out for academic discussions, collaborative projects, or networking</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Channels & Social Cards -->
+          <div class="contact-cards-col">
+            <div class="contact-intro">
+              <h3>Connect With Renuka</h3>
+              <p>
+                Feel free to connect on LinkedIn, browse my GitHub repositories, or send an email. 
+                The links below are ready for you to add your exact profile handles in <code>index.html</code>!
+              </p>
+            </div>
+
+            <!-- GitHub Card -->
+            <!-- EDIT HERE: Replace 'https://github.com/your-username' with your actual GitHub profile link -->
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-contact-card" id="contact-github-link">
+              <div class="social-card-icon github-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+              </div>
+              <div class="social-card-text">
+                <span class="social-platform">GitHub</span>
+                <span class="social-handle">github.com/your-username (Click to edit)</span>
+              </div>
+              <div class="arrow-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+            </a>
+
+            <!-- LinkedIn Card -->
+            <!-- EDIT HERE: Replace 'https://linkedin.com/in/your-profile' with your actual LinkedIn profile link -->
+            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="social-contact-card" id="contact-linkedin-link">
+              <div class="social-card-icon linkedin-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="social-card-text">
+                <span class="social-platform">LinkedIn</span>
+                <span class="social-handle">linkedin.com/in/your-profile (Click to edit)</span>
+              </div>
+              <div class="arrow-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+            </a>
+
+            <!-- Email Card -->
+            <!-- EDIT HERE: Replace 'mailto:your.email@example.com' with your actual email -->
+            <a href="mailto:your.email@example.com" class="social-contact-card" id="contact-email-link">
+              <div class="social-card-icon email-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="social-card-text">
+                <span class="social-platform">Email Address</span>
+                <span class="social-handle">your.email@example.com (Click to edit)</span>
+              </div>
+              <div class="arrow-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+            </a>
+
+            <!-- Phone Card -->
+            <!-- EDIT HERE: Replace '+91-XXXXXXXXXX' with your actual contact number -->
+            <a href="tel:+91-XXXXXXXXXX" class="social-contact-card" id="contact-phone-link">
+              <div class="social-card-icon phone-icon">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="social-card-text">
+                <span class="social-platform">Phone Number</span>
+                <span class="social-handle">+91-XXXXXXXXXX (Click to edit)</span>
+              </div>
+              <div class="arrow-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+            </a>
+          </div>
+
+          <!-- Quick Message Form (Client-Side Interactive) -->
+          <div class="contact-form-col">
+            <form class="contact-form-card" id="contact-form">
+              <h3>Send a Message</h3>
+              <p class="form-desc">Have a question or want to collaborate? Leave your details below.</p>
+
+              <div class="form-group">
+                <label for="contact-name">Your Full Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" name="email" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" placeholder="Academic / Project Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="4" placeholder="Hello Renuka! I'd like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="send-msg-btn">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Project Details Modal -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge" id="modal-badge">Sample Project</span>
+        <h3 id="modal-title">Project Title</h3>
+      </div>
+      <div class="modal-body">
+        <p id="modal-description"></p>
+        <div class="modal-info-box">
+          <h4>💡 How Renuka can replace this:</h4>
+          <p>Open <code>index.html</code>, go to the <code>#projects</code> section, and replace the sample project title, description, and GitHub repository link with your real project!</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="modal-dismiss-btn">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-badge">&lt;AI&gt;</span>
+          <span class="logo-text">Renuka<span class="purple-highlight">.M</span></span>
+        </div>
+        <p>B.Tech Computer Science & Engineering (Artificial Intelligence & Machine Learning) &bull; REVA University</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Renuka M. All rights reserved. Built with HTML, CSS & JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
